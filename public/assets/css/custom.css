@@ -1,0 +1,40 @@
+.highlightPoints {
+    color: black !important;
+    font-size: 15px !important;
+    margin-left: 15px;
+}
+
+.price-table {
+    text-align: start;
+}
+
+.priceList {
+    list-style: none
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    .bannerImg {
+        display: none;
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {
+    .bannerImg {
+        display: none;
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+    .bannerImg {
+        display: block;
+    }
+}
