@@ -16,9 +16,9 @@
                                 <img class="img-fluid" src="images/banner/04.png" alt="">
                             </div>
                         </div>
-                        <div class="col-lg-12 col-md-12 mt-5 mt-lg-0">
+                        <div class="col-lg-12 col-md-12 mt-5 mt-lg-0 bannerContent">
                             <h1 class="mb-4 text-white font-w-5 animated bounceInLeft delay-2 duration-3">Get back to growth with the world’s #1 CRM.</h1>
-                            <p class="lead text-white animated fadeInUp delay-3 duration-3">Salesforce is helping Luxasia make beauty personal with omni-channel journeys.</p>
+                            <p class="lead text-white animated fadeInUp delay-3 duration-3">Bee is helping Luxasia make beauty personal with omni-channel journeys.</p>
                             <div class="animated fadeInUp delay-3 duration-3">
                                 <a class="btn btn-white" href="#"><i class="fas fa-sign-in mr-1" aria-hidden="true"></i> Register Now</a>
                             </div>
@@ -109,13 +109,13 @@
 
         <!--video start-->
 
-        <section class="light-bg">
+        <section class="highlightSection">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-6 col-md-12">
+                    <div class="col-lg-6 col-md-6">
                         <div class="video-box bg-contain bg-pos-r position-relative"
                             data-bg-img="images/pattern/07.png">
-                            <img class="img-fluid" src="images/about/08.png" alt="">
+                            <img src="{{ asset('assets/images/highlight.png') }}" alt="" class="img-fluid rounded-circle">
                             <div class="video-btn video-btn-pos"> <a
                                     class="play-btn popup-youtube d-flex align-items-center"
                                     href="https://www.youtube.com/watch?v=P_wKDMcr1Tg"><img
@@ -123,9 +123,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-12 mt-5 mt-lg-0">
+                    <div class="col-lg-6 col-md-6 mt-5 mt-lg-0 highlightsPoints">
                         <div class="section-title mb-3">
-                            <h2 class="title">Here's how Salesforce can benefit your business</h2>
+                            <h2 class="title">Here's how Bee can benefit your business</h2>
                         </div>
                         <ul class="list-unstyled list-icon">
                             <li class="mb-3"><i class="flaticon-tick"></i> <h5>World’s #1 CRM</h5> <li><i class="fas fa-star highlightPoints"></i><p>Integrated platform, AI, app development, best in class apps</p></li></li>
@@ -159,70 +159,73 @@
                     <div class="col-lg-4 col-md-12">
                         <div class="price-table">
                             <div class="price-header">
-                                <h3 class="price-title">Starter</h3>
+                                <h3 class="price-title text-center">Starter</h3>
                             </div>
                             <img class="img-fluid my-4" src="images/price/01.png" alt="">
                             <div class="price-value">
-                                <h2>$29<span>/Month</span></h2>
+                                <h2 class="text-center">$29<span>/Month</span></h2>
                             </div>
-                            <div class="price-list">
-                                <ol class="priceList">
-                                    <li> 15 Analytics Compaign</li>
-                                    <li> Unlimited Site licenses</li>
-                                    <li> 1 Database</li>
-                                    <li> 10 Free Optimization</li>
-                                    <li> Html5 + Css3</li>
-                                    <li> 24/7 Customer Support</li>
-                                </ol>
+                            <div>
+                                <ul class="priceList">
+                                    <li><i class="flaticon-tick"></i>15 Analytics Compaign</li>
+                                    <li><i class="flaticon-tick"></i>Unlimited Site licenses</li>
+                                    <li><i class="flaticon-tick"></i>1 Database</li>
+                                    <li><i class="flaticon-tick"></i>10 Free Optimization</li>
+                                    <li><i class="flaticon-tick"></i>Html5 + Css3</li>
+                                    <li><i class="flaticon-tick"></i>24/7 Customer Support</li>
+                                </ul>
                             </div>
-                            <a class="btn btn-white mt-5" href="#"> <span>Get Started</span>
-                            </a>
+                            <div class="text-center">
+                                <a class="btn btn-white mt-5" href="#"><span>Get Started </span> <i class="fas fa-arrow-circle-right"></i></a>
+                            </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-12 mt-5 mt-lg-0">
                         <div class="price-table">
                             <div class="price-header">
-                                <h3 class="price-title">Premium</h3>
+                                <h3 class="price-title text-center">Premium</h3>
                             </div>
                             <img class="img-fluid my-4" src="images/price/01.png" alt="">
                             <div class="price-value">
-                                <h2>$99<span>/Month</span></h2>
+                                <h2 class="text-center">$99<span>/Month</span></h2>
                             </div>
-                            <div class="price-list">
-                                <ul class="list-unstyled">
-                                    <li><i class="flaticon-tick"></i> 15 Analytics Compaign</li>
-                                    <li><i class="flaticon-tick"></i> Unlimited Site licenses</li>
-                                    <li><i class="flaticon-tick"></i> 1 Database</li>
-                                    <li><i class="flaticon-tick"></i> 10 Free Optimization</li>
-                                    <li><i class="flaticon-tick"></i> Html5 + Css3</li>
-                                    <li><i class="flaticon-tick"></i> 24/7 Customer Support</li>
+                            <div>
+                                <ul class="priceList">
+                                    <li><i class="flaticon-tick"></i>15 Analytics Compaign</li>
+                                    <li><i class="flaticon-tick"></i>Unlimited Site licenses</li>
+                                    <li><i class="flaticon-tick"></i>1 Database</li>
+                                    <li><i class="flaticon-tick"></i>10 Free Optimization</li>
+                                    <li><i class="flaticon-tick"></i>Html5 + Css3</li>
+                                    <li><i class="flaticon-tick"></i>24/7 Customer Support</li>
                                 </ul>
                             </div>
-                            <a class="btn btn-white mt-5" href="#"> <span>Get Started</span>
-                            </a>
+                            <div class="text-center">
+                                <a class="btn btn-white mt-5" href="#"> <span>Get Started </span> <i class="fas fa-arrow-circle-right"></i></a>
+                            </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-12 mt-5 mt-lg-0">
                         <div class="price-table">
                             <div class="price-header">
-                                <h3 class="price-title">Professional</h3>
+                                <h3 class="price-title text-center">Professional</h3>
                             </div>
                             <img class="img-fluid my-4" src="images/price/01.png" alt="">
                             <div class="price-value">
-                                <h2>$199<span>/Month</span></h2>
+                                <h2 class="text-center">$199<span>/Month</span></h2>
                             </div>
-                            <div class="price-list">
-                                <ul class="list-unstyled">
-                                    <li><i class="flaticon-tick"></i> 15 Analytics Compaign</li>
-                                    <li><i class="flaticon-tick"></i> Unlimited Site licenses</li>
-                                    <li><i class="flaticon-tick"></i> 1 Database</li>
-                                    <li><i class="flaticon-tick"></i> 10 Free Optimization</li>
-                                    <li><i class="flaticon-tick"></i> Html5 + Css3</li>
-                                    <li><i class="flaticon-tick"></i> 24/7 Customer Support</li>
+                            <div>
+                                <ul class="priceList">
+                                    <li><i class="flaticon-tick"></i>15 Analytics Compaign</li>
+                                    <li><i class="flaticon-tick"></i>Unlimited Site licenses</li>
+                                    <li><i class="flaticon-tick"></i>1 Database</li>
+                                    <li><i class="flaticon-tick"></i>10 Free Optimization</li>
+                                    <li><i class="flaticon-tick"></i>Html5 + Css3</li>
+                                    <li><i class="flaticon-tick"></i>24/7 Customer Support</li>
                                 </ul>
                             </div>
-                            <a class="btn btn-white mt-5" href="#"> <span>Get Started</span>
-                            </a>
+                            <div class="text-center">
+                                <a class="btn btn-white mt-5" href="#"> <span>Get Started </span> <i class="fas fa-arrow-circle-right"></i></a>
+                            </div>                            
                         </div>
                     </div>
                 </div>

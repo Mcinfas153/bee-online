@@ -12,7 +12,7 @@
     <title>Loptus - Digital Marketing Agency Responsive HTML5 Template</title>
 
     <!-- favicon icon -->
-    <link rel="shortcut icon" href="images/favicon.ico" />
+    <link rel="shortcut icon" href="{{ asset('assets/images/favicon.png') }}" />
 
     <!-- inject css start -->
 

@@ -3,21 +3,19 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <img class="img-fluid side-logo mb-3" src="images/logo.png" alt="">
-                    <p class="mb-5">Loptus - Digital Marketing Agency Responsive HTML5 Template is Most PowerFull
-                        template 2018 For Everyone, Start working with an company that provide everything you need
-                        to generate awareness.</p>
+                    <img class="img-fluid side-logo mb-3" src="{{ asset('assets/images/logo-white.png') }}" alt="">
+                    <p class="mb-5">Bee is the world’s #1 customer relationship management (CRM) platform. We help your marketing, sales, commerce, service and IT teams work as one from anywhere — so you can keep your customers happy everywhere.</p>
                     <div class="form-info">
                         <h4 class="title">Contact info</h4>
                         <ul class="contact-info list-unstyled mt-4">
                             <li class="mb-4"><i class="flaticon-location"></i><span>Address:</span>
-                                <p>423B, Road Wordwide Country, USA</p>
+                                <p>311/A, Colombo 2, Srilanka.</p>
                             </li>
                             <li class="mb-4"><i class="flaticon-call"></i><span>Phone:</span><a
-                                    href="tel:+912345678900">+91-234-567-8900</a>
+                                    href="tel:+94764878633">+94-76-487-8633</a>
                             </li>
-                            <li><i class="flaticon-email"></i><span>Email</span><a href="mailto:themeht23@gmail.com">
-                                    themeht23@gmail.com</a>
+                            <li><i class="flaticon-email"></i><span>Email</span><a href="mailto:contact@beeonline.xyz">
+                                contact@beeonline.xyz</a>
                             </li>
                         </ul>
                     </div>

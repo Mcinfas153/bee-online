@@ -1,20 +1,20 @@
 <div>
-    <footer class="footer white-bg z-index-1 overflow-hidden bg-contain" data-bg-img="images/pattern/01.png">
+    <footer class="footer z-index-1 overflow-hidden bg-contain" data-bg-img="images/pattern/01.png">
         <div class="round-p-animation"></div>
         <div class="primary-footer">
             <div class="container-fluid p-0">
                 <div class="row">
                     <div class="col-lg-4">
                         <div class="ht-theme-info bg-contain bg-pos-r h-100 dark-bg text-white"
-                            data-bg-img="images/bg/02.png">
-                            <div class="footer-logo">
+                            data-bg-img="{{ asset('assets/images/bg/02.png') }}">
+                            <div class="footer-logo mb-5">
                                 <a href="index.html">
-                                    <img class="img-fluid" src="images/logo-white-5.png" alt="">
+                                    <img class="img-fluid rounded-circle footerLogo" src="https://img.icons8.com/color/300/000000/bee.png" alt="">
                                 </a>
                             </div>
-                            <p class="mb-3">Loptus Digital Marketing HTML5 Template Is fully responsible,
-                                Performance oriented theme, Build whatever you like with the Loptus, Loptus is the
-                                creative, modern HTML5 Template suitable for Your business.</p> <a class="btn-simple"
+                            <h3 class="text text-light mb-2">What is Bee?</h3>
+                            <p class="mb-3">Bee is the world’s #1 customer relationship management (CRM) platform. We help your marketing, sales, commerce, service and IT teams work as one from anywhere — so you can keep your customers happy everywhere.</p>
+                            <a class="btn-simple"
                                 href="#"><span>Read More <i class="fas fa-long-arrow-alt-right"></i></span></a>
                             <div class="social-icons social-border circle social-hover mt-5">
                                 <h4 class="title">Follow Us</h4>
@@ -38,7 +38,7 @@
                             <div class="col-lg-6 col-md-6 footer-list">
                                 <h4 class="title">Useful Links</h4>
                                 <div class="row">
-                                    <div class="col-sm-5">
+                                    <div class="col-sm-5 mb-3">
                                         <ul class="list-unstyled">
                                             <li><a href="about-us.html">About Us</a>
                                             </li>
@@ -72,13 +72,13 @@
                                 <h4 class="title">Contact us</h4>
                                 <ul class="media-icon list-unstyled">
                                     <li>
-                                        <p class="mb-0">423B, Road Wordwide Country, USA</p>
+                                        <p class="mb-0">311/A, Colombo 2, Srilanka.</p>
                                     </li>
-                                    <li><a href="mailto:themeht23@gmail.com">themeht23@gmail.com</a>
+                                    <li><a href="mailto:contact@beeonline.xyz">contact@beeonline.xyz</a>
                                     </li>
-                                    <li><a href="tel:+912345678900">+91-234-567-8900</a>
+                                    <li><a href="tel:+94764878633">+94-76-487-8633</a>
                                     </li>
-                                    <li><a href="tel:+912345678900">+91-234-567-8900</a>
+                                    <li><a href="tel:+94764878633">+94-76-487-8633</a>
                                     </li>
                                 </ul>
                             </div>
@@ -87,10 +87,10 @@
                             <div class="col-lg-10 col-md-12 me-auto">
                                 <div
                                     class="align-items-center white-bg box-shadow px-3 py-3 radius d-md-flex justify-content-between">
-                                    <h4 class="mb-0">NewsLetter</h4>
+                                    <h4 class="mb-3">NewsLetter</h4>
                                     <div class="subscribe-form sm-mt-2">
                                         <form id="mc-form" class="group">
-                                            <input type="email" value="" name="EMAIL" class="email" id="mc-email"
+                                            <input type="email" value="" name="EMAIL" class="email mb-3" id="mc-email"
                                                 placeholder="Email Address" required="">
                                             <input class="btn btn-theme" type="submit" name="subscribe"
                                                 value="Subscribe">
@@ -107,9 +107,9 @@
             <div class="container">
                 <div class="copyright">
                     <div class="row align-items-center">
-                        <div class="col-md-6"> <span>Copyright 2018 | All Rights Reserved</span>
+                        <div class="col-md-6 text-center"> <span>Copyright 2021 | Bee CRM | All Rights Reserved</span>
                         </div>
-                        <div class="col-md-6 text-md-end sm-mt-2"> <span>Loptus Theme by <a href="#">ThemeHt</a></span>
+                        <div class="col-md-6 text-md-end sm-mt-2 text-center"> <span>Bee Theme by <a href="#">Jaarvis Inc.</a></span>
                         </div>
                     </div>
                 </div>
