@@ -2,6 +2,8 @@
 
 use App\Http\Livewire\HomePage;
 use Illuminate\Support\Facades\Route;
+use App\Http\Livewire\AboutPage;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -15,3 +17,4 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', HomePage::class);
+Route::get('/about', AboutPage::class);

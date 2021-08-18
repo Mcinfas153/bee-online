@@ -1,5 +1,5 @@
 <div>
-    <footer class="footer z-index-1 overflow-hidden bg-contain" data-bg-img="images/pattern/01.png">
+    <footer class="footer z-index-1 overflow-hidden bg-contain" data-bg-img="{{ asset('assets/images/pattern/01.png') }}">
         <div class="round-p-animation"></div>
         <div class="primary-footer">
             <div class="container-fluid p-0">
@@ -8,7 +8,7 @@
                         <div class="ht-theme-info bg-contain bg-pos-r h-100 dark-bg text-white"
                             data-bg-img="{{ asset('assets/images/bg/02.png') }}">
                             <div class="footer-logo mb-5">
-                                <a href="index.html">
+                                <a>
                                     <img class="img-fluid rounded-circle footerLogo" src="https://img.icons8.com/color/300/000000/bee.png" alt="">
                                 </a>
                             </div>
