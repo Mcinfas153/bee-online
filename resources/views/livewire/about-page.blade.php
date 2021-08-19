@@ -8,9 +8,8 @@
           <h1 class="title">About Us</h1>
           <nav aria-label="breadcrumb" class="page-breadcrumb">
             <ol class="breadcrumb">
-              <li class="breadcrumb-item"><a href="index.html">Home</a>
-              </li>
-              <li class="breadcrumb-item"><a href="#">Pages</a>
+              <br>
+              <li class="breadcrumb-item"><a href="#">Page:</a>
               </li>
               <li class="breadcrumb-item active" aria-current="page">About Us</li>
             </ol>
@@ -59,9 +58,9 @@
             <div class="col-lg-6 col-md-12 mt-5 mt-lg-0">
               <div class="section-title mb-3">
                 <h6>About Us</h6>
-                <h2>What is Salesforce?</h2>
+                <h2>What is Bee?</h2>
               </div>
-              <p class="text-black">Salesforce is the world’s #1 customer relationship management (CRM) platform. We help your marketing, sales, commerce, service and IT teams work as one from anywhere — so you can keep your customers happy everywhere.</p>
+              <p class="text-black">Bee is the world’s #1 customer relationship management (CRM) platform. We help your marketing, sales, commerce, service and IT teams work as one from anywhere — so you can keep your customers happy everywhere.</p>
               <a class="btn btn-theme" href="#"><span>Learn More</span></a>
             </div>      
           </div>
@@ -115,8 +114,8 @@
           <div class="row justify-content-center text-center">
             <div class="col-lg-8 col-md-12">
               <div class="section-title mb-0">
-                <h2 class="title">What is Salesforce used for?</h2> 
-                <p class="mb-0 text-white">Deos et accusamus et iusto odio dignissimos qui blanditiis praesentium voluptatum dele corrupti quos dolores et quas molestias.</p>
+                <h2 class="title">What is Bee used for?</h2> 
+                <p class="mb-0 text-white">Bee is the world’s #1 customer relationship management (CRM) platform. We help your marketing, sales, commerce, service and IT teams work as one from anywhere</p>
               </div>
             </div>
           </div>
@@ -160,7 +159,7 @@
                 <div class="item">
                   <div class="cases-item rounded">
                     <div class="cases-images">
-                      <img class="img-fluid" src="{{ asset('assets/images/case-studies/04.jpg') }}" alt="">
+                      <img class="img-fluid" src="{{ asset('assets/images/case-studies/06.jpg') }}" alt="">
                     </div>
                     <div class="cases-description">
                       <span>Respond faster to customer support issues on any channel.</span>
@@ -193,32 +192,32 @@
               <div class="row">
                 <div class="col-md-6">
                   <div class="image-block">
-                    <img class="img-fluid box-shadow radius w-100" src="{{ asset('assets/images/about/01.webp') }}" alt="">
+                    <img class="img-fluid box-shadow radius w-100" src="{{ asset('assets/images/about/01.png') }}" alt="">
                   </div>
                 </div>
                 <div class="col-md-6 mt-4">
                   <div class="image-block">
-                    <img class="img-fluid box-shadow radius w-100 mb-4" src="{{ asset('assets/images/about/10.jpeg') }}" alt="">
+                    <img class="img-fluid box-shadow radius w-100 mb-4" src="{{ asset('assets/images/about/02.jpg') }}" alt="">
                   </div>
                 </div>
                 <div class="col-md-6 sm-mt-3">
                   <div class="image-block">
-                    <img class="img-fluid box-shadow radius w-100" src="{{ asset('assets/images/about/10.jpg') }}" alt="">
+                    <img class="img-fluid box-shadow radius w-100" src="{{ asset('assets/images/about/03.webp') }}" alt="">
                   </div>
                 </div>
                 <div class="col-md-6 mt-4">
                   <div class="image-block">
-                    <img class="img-fluid box-shadow radius w-100" src="{{ asset('assets/images/about/04.jpg') }}" alt="">
+                    <img class="img-fluid box-shadow radius w-100" src="{{ asset('assets/images/about/12.png') }}" alt="">
                   </div>
                 </div>
               </div>
             </div>
             <div class="col-lg-6 col-md-12 mt-5 mt-lg-0">
               <div class="section-title mb-3">
-                <h6>What does Salesforce stand for?</h6>
-                <h2>Our core values help make Salesforce a platform for change.</h2>
+                <h6>What does Bee stand for?</h6>
+                <h2>Our core values help make Bee a platform for change.</h2>
               </div>
-              <p class="text-black">Ever since we started operating out of a small San Francisco apartment in 1999, we've believed that doing well as a company means doing good in the world. That's why we've committed our time, equity, and products to improving education, equality, and the environment for everyone.</p>
+              <p class="text-black">Ever since we started operating out of a small Colombo House in 2019, we've believed that doing well as a company means doing good in the world. That's why we've committed our time, equity, and products to improving education, equality, and the environment for everyone.</p>
               <a class="btn btn-theme" href="#"><span>Learn More</span></a>
             </div>      
           </div>
@@ -232,22 +231,22 @@
               <div class="row">
                 <div class="col-md-6">
                   <div class="image-block">
-                    <img class="img-fluid box-shadow radius w-100" src="{{ asset('assets/images/about/01.webp') }}" alt="">
+                    <img class="img-fluid box-shadow radius w-100" src="{{ asset('assets/images/about/08.jpg') }}" alt="">
                   </div>
                 </div>
                 <div class="col-md-6 mt-4 mb-2">
                   <div class="image-block">
-                    <img class="img-fluid box-shadow radius w-100" src="{{ asset('assets/images/about/10.jpeg') }}" alt="">
+                    <img class="img-fluid box-shadow radius w-100" src="{{ asset('assets/images/about/09.jpeg') }}" alt="">
                   </div>
                 </div>
                 <div class="col-md-6 sm-mt-3">
                   <div class="image-block">
-                    <img class="img-fluid box-shadow radius w-100" src="{{ asset('assets/images/about/10.jpg') }}" alt="">
+                    <img class="img-fluid box-shadow radius w-100" src="{{ asset('assets/images/about/10.jpeg') }}" alt="">
                   </div>
                 </div>
                 <div class="col-md-6 mt-4">
                   <div class="image-block">
-                    <img class="img-fluid box-shadow radius w-100" src="{{ asset('assets/images/about/04.jpg') }}" alt="">
+                    <img class="img-fluid box-shadow radius w-100" src="{{ asset('assets/images/about/11.jpg') }}" alt="">
                   </div>
                 </div>
               </div>
@@ -257,7 +256,7 @@
                 <h6>What do we do for people?</h6>
                 <h2>Our technology helps people create better jobs, lives, companies, and communities.</h2>
               </div>
-              <p class="text-black">When you buy Salesforce, you’re not just buying a CRM platform; you’re joining an inclusive community of over 10 million innovators, disruptors, and community shapers we call Trailblazers. With free online learning from Trailhead, they’re learning the skills to improve their companies and careers.</p>
+              <p class="text-black">When you buy Bee, you’re not just buying a CRM platform; you’re joining an inclusive community of over 10 million innovators, disruptors, and community shapers we call Trailblazers. With free online learning from Trailhead, they’re learning the skills to improve their companies and careers.</p>
               <a class="btn btn-theme" href="#"><span>Learn More</span></a>
             </div>      
           </div>
@@ -276,7 +275,7 @@
                   <div class="post-title">
                     <h5><a>Contact Us</a></h5>
                   </div>
-                  <p>Call us at 800 1301 448 (SG) +65 6302 5700 (Intl), or let us call you back.</p>
+                  <p>Call us at +94 76 487 8633 (Intl), or let us call you back.24 Hours Free customer Service available</p>
                   <button class="btn btn-primary"><img src="https://img.icons8.com/dusk/30/000000/phone.png" class="mr-4"/> Call Now</button>
                 </div>
               </div>
@@ -290,8 +289,8 @@
                   <div class="post-title">
                     <h5><a href="blog-details.html">See it in Action</a></h5>
                   </div>
-                  <p>Get an overview of what Salesforce can do for your business in our product demos.</p>
-                  <button class="btn btn-primary"><img src="https://img.icons8.com/dusk/30/000000/info.png" class="mr-4"/> Learn More</button>
+                  <p>Get an overview of what Bee can do for your business in our product demos.</p>
+                  <button class="btn btn-primary"><img src="https://img.icons8.com/dusk/30/000000/play.png" class="mr-4"/> Live Demo</button>
                 </div>
               </div>
             </div>
@@ -304,7 +303,7 @@
                   <div class="post-title">
                     <h5><a href="blog-details.html">Get Started Now</a></h5>
                   </div>
-                  <p>Try Salesforce free for 30 days — no credit card required, no software to install.</p>
+                  <p>Try Bee free for 30 days — no credit card required, no software to install.</p>
                   <button class="btn btn-primary"><img src="https://img.icons8.com/dusk/30/000000/get-cash.png" class="mr-4"/> Get Now</button>
                 </div>
               </div>
