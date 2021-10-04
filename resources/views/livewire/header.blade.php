@@ -18,22 +18,22 @@
                                 <ul class="navbar-nav mx-auto position-relative">
                                     <!-- Home -->
                                     <li class="nav-item">
-                                        <a class="nav-link active" href="#">
+                                        <a class="nav-link active text-dark" href="#">
                                             Home
                                         </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="{{ URL::to('/about') }}">
+                                        <a class="nav-link text-dark" href="{{ URL::to('/about') }}">
                                             About us
                                         </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="{{ URL::to('/projects') }}">
+                                        <a class="nav-link text-dark" href="{{ URL::to('/projects') }}">
                                             Products
                                         </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="{{ URL::to('/contact') }}">
+                                        <a class="nav-link text-dark" href="{{ URL::to('/contact') }}">
                                             Contact
                                         </a>
                                     </li>
@@ -42,13 +42,13 @@
                             <div class="right-nav align-items-center d-flex justify-content-end">
                                 <div class="search">
                                     <div class="search-content">
-                                        <div class="search-button"> <i class="fas fa-search"></i>
+                                        <div class="search-button"> <i class="fas fa-search text-dark"></i>
                                         </div>
                                         <form id="search-form" class="search-form">
                                             <input type="search" class="search-input" placeholder="Search Here...">
                                         </form>
                                     </div>
-                                </div> <a href="#" class="ht-nav-toggle"><span></span></a>
+                                </div> <a href="#" class="ht-nav-toggle text-dark"><span></span></a>
                             </div>
                         </nav>
                     </div>
