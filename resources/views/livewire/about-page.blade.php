@@ -129,7 +129,7 @@
                 <div class="item">
                   <div class="cases-item">
                     <div class="cases-images rounded">
-                      <img class="img-fluid" src="{{ asset('assets/images/case-studies/01.jpg') }}" alt="">
+                      <img class="img-fluid" src="{{ asset('assets/images/about-carousel/01.jpg') }}" alt="">
                     </div>
                     <div class="cases-description">
                       <span>Attract more buyers using personalised marketing.</span>
@@ -139,7 +139,7 @@
                 <div class="item">
                   <div class="cases-item rounded">
                     <div class="cases-images">
-                      <img class="img-fluid mb-4" src="{{ asset('assets/images/case-studies/02.jpg') }}" alt="">
+                      <img class="img-fluid mb-4" src="{{ asset('assets/images/about-carousel/02.jpg') }}" alt="">
                     </div>
                     <div class="cases-description">
                       <span>Win more customers by getting to know their needs and concerns.</span>
@@ -149,7 +149,7 @@
                 <div class="item">
                   <div class="cases-item rounded">
                     <div class="cases-images">
-                      <img class="img-fluid" src="{{ asset('assets/images/case-studies/03.jpg') }}" alt="">
+                      <img class="img-fluid" src="{{ asset('assets/images/about-carousel/03.jpg') }}" alt="">
                     </div>
                     <div class="cases-description">
                       <span>Deliver the amazing shopping experiences your customers expect.</span>
@@ -159,7 +159,7 @@
                 <div class="item">
                   <div class="cases-item rounded">
                     <div class="cases-images">
-                      <img class="img-fluid" src="{{ asset('assets/images/case-studies/06.jpg') }}" alt="">
+                      <img class="img-fluid" src="{{ asset('assets/images/about-carousel/04.jpg') }}" alt="">
                     </div>
                     <div class="cases-description">
                       <span>Respond faster to customer support issues on any channel.</span>
@@ -169,7 +169,7 @@
                 <div class="item">
                   <div class="cases-item rounded">
                     <div class="cases-images">
-                      <img class="img-fluid" src="{{ asset('assets/images/case-studies/05.jpg') }}" alt="">
+                      <img class="img-fluid" src="{{ asset('assets/images/about-carousel/05.jpg') }}" alt="">
                     </div>
                     <div class="cases-description">
                       <span>Automate time-consuming tasks by building custom apps.</span>
@@ -269,7 +269,7 @@
             <div class="col-lg-4 col-md-12">
               <div class="post">
                 <div class="post-image">
-                  <img class="img-fluid h-100 w-100 rounded" src="{{ asset('assets/images/blog/01.jpg') }}" alt="">
+                  <img class="img-fluid h-100 w-100 rounded" src="{{ asset('assets/images/about/contact.jpg') }}" alt="">
                 </div>
                 <div class="post-desc">
                   <div class="post-title">
@@ -283,7 +283,7 @@
             <div class="col-lg-4 col-md-12 mt-5 mt-lg-0">
               <div class="post">
                 <div class="post-image">
-                  <img class="img-fluid h-100 w-100 rounded" src="{{ asset('assets/images/blog/02.jpg') }}" alt="">
+                  <img class="img-fluid h-100 w-100 rounded" src="{{ asset('assets/images/about/marketing.jpg') }}" alt="">
                 </div>
                 <div class="post-desc">
                   <div class="post-title">
@@ -297,7 +297,7 @@
             <div class="col-lg-4 col-md-12 mt-5 mt-lg-0">
               <div class="post">
                 <div class="post-image">
-                  <img class="img-fluid h-100 w-100 rounded" src="{{ asset('assets/images/blog/03.jpg') }}" alt="">
+                  <img class="img-fluid h-100 w-100 rounded" src="{{ asset('assets/images/about/trial.jpg') }}" alt="">
                 </div>
                 <div class="post-desc">
                   <div class="post-title">

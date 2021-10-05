@@ -1,5 +1,5 @@
 <div>
-    <nav id="ht-main-nav"> <a href="#" class="ht-nav-toggle active"><span></span></a>
+    <nav id="ht-main-nav"> <a href="#" class="ht-nav-toggle"><span></span></a>
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -21,13 +21,13 @@
                     </div>
                     <div class="social-icons social-colored mt-5">
                         <ul class="list-inline">
-                            <li class="mb-2 social-facebook"><a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <li class="mb-2 social-facebook"><a href="https://www.facebook.com/beeonline.xyz"><i class="fab fa-facebook-f"></i></a>
                             </li>
-                            <li class="mb-2 social-twitter"><a href="#"><i class="fab fa-twitter"></i></a>
+                            <li class="mb-2 social-instagram"><a href="https://www.instagram.com/beeonline2021/"><i class="fab fa-instagram"></i></a>
                             </li>
-                            <li class="mb-2 social-linkedin"><a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <li class="mb-2 social-google"><a href="mailto:contact@beeonline.xyz"><i class="fab fa-google"></i></a>
                             </li>
-                            <li class="mb-2 social-gplus"><a href="#"><i class="fab fa-google-plus-g"></i></a>
+                            <li class="mb-2 social-linkedin"><a href="https://www.linkedin.com/company/beeonline-inc"><i class="fab fa-linkedin-in"></i></a>
                             </li>
                         </ul>
                     </div>

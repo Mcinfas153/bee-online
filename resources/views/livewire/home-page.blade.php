@@ -134,7 +134,7 @@
                             <li class="mb-3"><i class="flaticon-tick"></i> <h5>Scalable and Flexible</h5> <li><p><i class="fas fa-star highlightPoints"></i>Solutions for any size company or industry</p></li></li>
                             <li class="mb-3"><i class="flaticon-tick"></i> <h5>Trailblazer Success and Community</h5> <li><p><i class="fas fa-star highlightPoints"></i>96% of customers say they met or exceeded ROI expectations</p></li></li>
                         </ul>
-                        <a class="btn btn-white mt-5" href="#"><span><img src="https://img.icons8.com/bubbles/50/000000/play.png"/> Live Preview</span></a>
+                        <a class="btn btn-white mt-5" href="http://crm.beeonline.xyz"><span><img src="https://img.icons8.com/bubbles/50/000000/play.png"/> Live Preview</span></a>
                     </div>
                 </div>
             </div>

@@ -19,15 +19,13 @@
                             <div class="social-icons social-border circle social-hover mt-5">
                                 <h4 class="title">Follow Us</h4>
                                 <ul class="list-inline">
-                                    <li class="social-facebook"><a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <li class="mb-2 social-facebook"><a href="https://www.facebook.com/beeonline.xyz"><i class="fab fa-facebook-f"></i></a>
                                     </li>
-                                    <li class="social-twitter"><a href="#"><i class="fab fa-twitter"></i></a>
+                                    <li class="mb-2 social-instagram"><a href="https://www.instagram.com/beeonline2021/"><i class="fab fa-instagram"></i></a>
                                     </li>
-                                    <li class="social-gplus"><a href="#"><i class="fab fa-google-plus-g"></i></a>
+                                    <li class="mb-2 social-google"><a href="mailto:contact@beeonline.xyz"><i class="fab fa-google"></i></a>
                                     </li>
-                                    <li class="social-linkedin"><a href="#"><i class="fab fa-linkedin-in"></i></a>
-                                    </li>
-                                    <li class="social-skype"><a href="#"><i class="fab fa-skype"></i></a>
+                                    <li class="mb-2 social-linkedin"><a href="https://www.linkedin.com/company/beeonline-inc"><i class="fab fa-linkedin-in"></i></a>
                                     </li>
                                 </ul>
                             </div>
@@ -109,7 +107,7 @@
                     <div class="row align-items-center">
                         <div class="col-md-6 text-center"> <span>Copyright 2021 | Bee CRM | All Rights Reserved</span>
                         </div>
-                        <div class="col-md-6 text-md-end sm-mt-2 text-center"> <span>Bee Theme by <a href="#">Jaarvis Inc.</a></span>
+                        <div class="col-md-6 text-md-end sm-mt-2 text-center"> <span>Bee Theme by <a href="#">Bee Inc.</a></span>
                         </div>
                     </div>
                 </div>

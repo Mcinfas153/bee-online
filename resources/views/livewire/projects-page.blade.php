@@ -196,28 +196,28 @@
             <div class="col-md-12">
               <div class="ht-clients d-flex flex-wrap align-items-center text-center">
                 <div class="clients-logo">
-                  <img class="img-fluid" src="{{ asset('assets/images/client/07.png') }}" alt="">
+                  <img class="img-fluid" src="{{ asset('assets/images/client/1.png') }}" alt="">
                 </div>
                 <div class="clients-logo">
-                  <img class="img-fluid" src="{{ asset('assets/images/client/08.png') }}" alt="">
+                  <img class="img-fluid" src="{{ asset('assets/images/client/2.png') }}" alt="">
                 </div>
                 <div class="clients-logo">
-                  <img class="img-fluid" src="{{ asset('assets/images/client/09.png') }}" alt="">
+                  <img class="img-fluid" src="{{ asset('assets/images/client/3.png') }}" alt="">
                 </div>
                 <div class="clients-logo">
-                  <img class="img-fluid" src="{{ asset('assets/images/client/10.png') }}" alt="">
+                  <img class="img-fluid" src="{{ asset('assets/images/client/4.png') }}" alt="">
                 </div>
                 <div class="clients-logo">
-                  <img class="img-fluid" src="{{ asset('assets/images/client/11.png') }}" alt="">
+                  <img class="img-fluid" src="{{ asset('assets/images/client/5.png') }}" alt="">
                 </div>
                 <div class="clients-logo">
-                  <img class="img-fluid" src="{{ asset('assets/images/client/12.png') }}" alt="">
+                  <img class="img-fluid" src="{{ asset('assets/images/client/6.png') }}" alt="">
                 </div>
                 <div class="clients-logo">
-                  <img class="img-fluid" src="{{ asset('assets/images/client/08.png') }}" alt="">
+                  <img class="img-fluid" src="{{ asset('assets/images/client/7.png') }}" alt="">
                 </div>
                 <div class="clients-logo">
-                  <img class="img-fluid" src="{{ asset('assets/images/client/10.png') }}" alt="">
+                  <img class="img-fluid" src="{{ asset('assets/images/client/8.png') }}" alt="">
                 </div>
               </div>
             </div>
