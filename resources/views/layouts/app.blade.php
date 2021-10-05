@@ -3,13 +3,13 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="agency, bootstrap 5, premium, marketing, business, digital, rtl, sass/scss/saas" />
+    <meta name="keywords" content="crm, bee, beeonline, beeinc" />
     <meta name="description" content="HTML5 Template" />
-    <meta name="author" content="www.themeht.com" />
+    <meta name="Ihlas" content="beeonline.xyz" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Title -->
-    <title>Loptus - Digital Marketing Agency Responsive HTML5 Template</title>
+    <title>"Bee Inc." is the world’s #1 customer relationship management (CRM) platform. We help your marketing, sales, commerce, service and IT teams work as one from anywhere — so you can keep your customers happy everywhere.</title>
 
     <!-- favicon icon -->
     <link rel="shortcut icon" href="{{ asset('assets/images/favicon.png') }}" />

@@ -3,7 +3,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <img class="img-fluid side-logo mb-3" src="{{ asset('assets/images/logo-white.png') }}" alt="">
+                    <img class="img-fluid side-logo mb-3" src="{{ asset('assets/images/logo.png') }}" alt="">
                     <p class="mb-5">Bee is the world’s #1 customer relationship management (CRM) platform. We help your marketing, sales, commerce, service and IT teams work as one from anywhere — so you can keep your customers happy everywhere.</p>
                     <div class="form-info">
                         <h4 class="title">Contact info</h4>

@@ -5,9 +5,9 @@
                 <div class="row">
                     <div class="col">
                         <nav class="navbar navbar-expand-lg">
-                            <a class="navbar-brand logo" href="index.html">
-                                <img id="logo-white-img" class="img-fluid" src="{{ asset('assets/images/logo-white.png') }}" alt="">
-                                <img id="logo-img" class="img-fluid sticky-logo" src="{{ asset('assets/images/logo-white.png') }}" alt="">
+                            <a class="navbar-brand logo" href="#">
+                                <img id="logo-white-img" class="img-fluid" src="{{ asset('assets/images/logo.png') }}" alt="">
+                                <img id="logo-img" class="img-fluid sticky-logo" src="{{ asset('assets/images/logo.png') }}" alt="">
                             </a>
                             <button class="navbar-toggler rounded" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
@@ -23,17 +23,17 @@
                                         </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link text-dark" href="{{ URL::to('/about') }}">
+                                        <a class="nav-link text-dark aboutNavLink" href="{{ URL::to('/about') }}">
                                             About us
                                         </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link text-dark" href="{{ URL::to('/projects') }}">
-                                            Products
+                                        <a class="nav-link text-dark productsNavLink" href="{{ URL::to('/projects') }}">
+                                            Projects
                                         </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link text-dark" href="{{ URL::to('/contact') }}">
+                                        <a class="nav-link text-dark contactNavLink" href="{{ URL::to('/contact') }}">
                                             Contact
                                         </a>
                                     </li>

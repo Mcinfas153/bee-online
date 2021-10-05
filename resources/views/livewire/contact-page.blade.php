@@ -93,5 +93,12 @@
       
       </div>
       
-      <!--body content end--> 
+      <!--body content end-->
+      <script src="{{ asset('assets/js/jquery-3.6.0.min.js') }}"></script>
+      <script>
+        $(document).ready(function() {
+            $('.active').removeClass('active');
+            $('.contactNavLink').addClass('active');
+        });
+    </script>
 </div>

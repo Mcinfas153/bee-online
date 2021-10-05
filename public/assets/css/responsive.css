@@ -142,7 +142,7 @@
         display: none;
     }
     .navbar-collapse {
-        background: #141414;
+        background: #FAF0E6;
         max-height: 400px;
         overflow: auto;
         border: medium none;
@@ -151,6 +151,7 @@
         z-index: 99;
         top: 50px;
         width: 100%;
+        border-radius: 8px;
     }
     .navbar-toggler span {
         width: 80%;

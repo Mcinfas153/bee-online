@@ -89,8 +89,8 @@
                     <div class="portfolio-title"> <span>Customer Relationship Managment</span>
                       <h4>Bee CRM</h4>
                     </div>
-                    <a class="popup-img" href="{{ asset('assets/images/project/large/01.jpg') }}"> <i class="flaticon-plus"></i>
-                    </a> <a class="popup-link" href="project-details.html">learn More</a> 
+                    <a class="popup-img" href="{{ asset('assets/images/project/large/01.jpg') }}"> <img src="{{ asset('assets/images/icons/eye.png') }}"/></a>
+                    <a class="popup-link" href="http://crm.beeonline.xyz"><img src="https://img.icons8.com/ios-glyphs/25/000000/circled-play.png"/> Live Demo</a> 
                   </div>
                 </div>
                 <div class="grid-item cat3">
@@ -99,8 +99,8 @@
                     <div class="portfolio-title"> <span>Real Estate</span>
                       <h4>Bee Properties</h4>
                     </div>
-                    <a class="popup-img" href="{{ asset('assets/images/project/large/02.jpg') }}"> <i class="flaticon-plus"></i>
-                    </a> <a class="popup-link" href="project-details.html">learn More</a> 
+                    <a class="popup-img" href="{{ asset('assets/images/project/large/01.jpg') }}"> <img src="{{ asset('assets/images/icons/eye.png') }}"/></a>
+                    <a class="popup-link" href="#"><img src="https://img.icons8.com/ios-glyphs/25/000000/circled-play.png"/> Learn More</a> 
                   </div>
                 </div>
                 <div class="grid-item cat4 cat2">
@@ -109,8 +109,8 @@
                     <div class="portfolio-title"> <span>Technology</span>
                       <h4>Bee Tech</h4>
                     </div>
-                    <a class="popup-img" href="{{ asset('assets/images/project/large/03.jpg') }}"> <i class="flaticon-plus"></i>
-                    </a> <a class="popup-link" href="project-details.html">learn More</a> 
+                    <a class="popup-img" href="{{ asset('assets/images/project/large/01.jpg') }}"> <img src="{{ asset('assets/images/icons/eye.png') }}"/></a>
+                    <a class="popup-link" href="#"><img src="https://img.icons8.com/ios-glyphs/25/000000/circled-play.png"/> Learn More</a> 
                   </div>
                 </div>
                 <div class="grid-item cat2 cat3">
@@ -119,8 +119,8 @@
                     <div class="portfolio-title"> <span>E-Commerce</span>
                       <h4>E-Bee</h4>
                     </div>
-                    <a class="popup-img" href="{{ asset('assets/images/project/large/04.jpg') }}"> <i class="flaticon-plus"></i>
-                    </a> <a class="popup-link" href="project-details.html">learn More</a> 
+                    <a class="popup-img" href="{{ asset('assets/images/project/large/01.jpg') }}"> <img src="{{ asset('assets/images/icons/eye.png') }}"/></a>
+                    <a class="popup-link" href="#"><img src="https://img.icons8.com/ios-glyphs/25/000000/circled-play.png"/> Learn More</a>
                   </div>
                 </div>
                 <div class="grid-item cat1 cat4">
@@ -129,8 +129,8 @@
                     <div class="portfolio-title"> <span>Portfolio</span>
                       <h4>BeeForlio</h4>
                     </div>
-                    <a class="popup-img" href="{{ asset('assets/images/project/large/05.jpg') }}"> <i class="flaticon-plus"></i>
-                    </a> <a class="popup-link" href="project-details.html">learn More</a> 
+                    <a class="popup-img" href="{{ asset('assets/images/project/large/01.jpg') }}"> <img src="{{ asset('assets/images/icons/eye.png') }}"/></a>
+                    <a class="popup-link" href="#"><img src="https://img.icons8.com/ios-glyphs/25/000000/circled-play.png"/> Learn More</a> 
                   </div>
                 </div>
                 <div class="grid-item cat1 cat3">
@@ -139,8 +139,8 @@
                     <div class="portfolio-title"> <span>Education</span>
                       <h4>EDU Bee</h4>
                     </div>
-                    <a class="popup-img" href="{{ asset('assets/images/project/large/06.jpg') }}"> <i class="flaticon-plus"></i>
-                    </a> <a class="popup-link" href="project-details.html">learn More</a> 
+                    <a class="popup-img" href="{{ asset('assets/images/project/large/01.jpg') }}"> <img src="{{ asset('assets/images/icons/eye.png') }}"/></a>
+                    <a class="popup-link" href="#"><img src="https://img.icons8.com/ios-glyphs/25/000000/circled-play.png"/> Learn More</a> 
                   </div>
                 </div>
               </div>
@@ -226,4 +226,11 @@
       </section>
       
       <!--client logo end-->
+      <script src="{{ asset('assets/js/jquery-3.6.0.min.js') }}"></script>
+      <script>
+        $(document).ready(function() {
+            $('.active').removeClass('active');
+            $('.productsNavLink').addClass('active');
+        });
+    </script>
 </div>
