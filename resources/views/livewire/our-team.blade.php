@@ -145,4 +145,10 @@
       </section>
       
       <!--counter end-->
+      <script src="{{ asset('assets/js/jquery-3.6.0.min.js') }}"></script>
+      <script>
+        $(document).ready(function() {
+            $('.active').removeClass('active');
+        });
+    </script>
 </div>

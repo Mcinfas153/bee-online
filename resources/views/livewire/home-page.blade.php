@@ -20,7 +20,7 @@
                             <h1 class="mb-4 text-white font-w-5 animated bounceInLeft delay-2 duration-3">Get back to growth with the world’s #1 CRM.</h1>
                             <p class="lead text-white animated fadeInUp delay-3 duration-3">Bee is helping Luxasia make beauty personal with omni-channel journeys.</p>
                             <div class="animated fadeInUp delay-3 duration-3">
-                                <a class="btn btn-white" href="#"><i class="fas fa-sign-in mr-1" aria-hidden="true"></i> Register Now</a>
+                                <a class="btn btn-white" href="https://crm.beeonline.xyz/register"><i class="fas fa-sign-in mr-1" aria-hidden="true"></i> Register Now</a>
                             </div>
                         </div>
                     </div>
@@ -65,7 +65,7 @@
               <h5>What is CRM?</h5>
             </div>
             <div class="featured-desc">
-                <p>CRM stands for Customer Relationship Management.</p> <a class="btn btn-theme mt-5" href="#">Learn More</a>
+                <p>CRM stands for Customer Relationship Management.</p> <a class="btn btn-theme mt-5" href="{{ URL::to('/about') }}">Learn More</a>
             </div>
           </div>
         </div>
@@ -78,7 +78,7 @@
                 <h5>What is BEE?</h5>
             </div>
             <div class="featured-desc">
-                <p>The #1 CRM can unite all your teams and drive growth.</p> <a class="btn btn-theme mt-5" href="#">Learn More</a>
+                <p>The #1 CRM can unite all your teams and drive growth.</p> <a class="btn btn-theme mt-5" href="{{ URL::to('/about') }}">Learn More</a>
             </div>
           </div>
         </div>
@@ -91,7 +91,7 @@
               <h5>BEE for Small Business</h5>
             </div>
             <div class="featured-desc">
-              <p>Find, win, and keep more customers using the small business platform that grows with you.</p> <a class="btn btn-theme mt-5" href="#">Learn More</a>
+              <p>Find, win, and keep more customers using the small business platform that grows with you.</p> <a class="btn btn-theme mt-5" href="{{ URL::to('/about') }}">Learn More</a>
             </div>
           </div>
         </div>
@@ -144,93 +144,54 @@
 
         <!--price table start-->
 
-        <section class="light-bg" data-bg-img="images/bg/02.png">
+        <section class="light-bg">
             <div class="container">
-                <div class="row text-center">
-                    <div class="col-lg-8 col-md-12 ms-auto me-auto">
-                        <div class="section-title">
-                            <h2 class="title">Choose Your Pricing plan</h2>
-                            <p class="mb-0">Deos et accusamus et iusto odio dignissimos qui blanditiis praesentium
-                                voluptatum dele corrupti quos dolores et quas molestias.</p>
-                        </div>
+              <div class="row">
+                <div class="col-lg-4 col-md-12">
+                  <div class="post">
+                    <div class="post-image">
+                      <img class="img-fluid h-100 w-100 rounded" src="{{ asset('assets/images/about/contact.jpg') }}" alt="">
                     </div>
+                    <div class="post-desc">
+                      <div class="post-title">
+                        <h5><a>Contact Us</a></h5>
+                      </div>
+                      <p>Call us at +94 76 487 8633 (Intl), or let us call you back.24 Hours Free customer Service available</p>
+                      <a href="{{ URL::to('/contact') }}"><button class="btn btn-primary"><img src="https://img.icons8.com/dusk/25/000000/phone.png" class="mr-4"/> Call Now</button></a>
+                    </div>
+                  </div>
                 </div>
-                <div class="row">
-                    <div class="col-lg-4 col-md-12">
-                        <div class="price-table">
-                            <div class="price-header">
-                                <h3 class="price-title text-center">Starter</h3>
-                            </div>
-                            <img class="img-fluid my-4" src="images/price/01.png" alt="">
-                            <div class="price-value">
-                                <h2 class="text-center">$29<span>/Month</span></h2>
-                            </div>
-                            <div>
-                                <ul class="priceList">
-                                    <li><i class="flaticon-tick"></i>15 Analytics Compaign</li>
-                                    <li><i class="flaticon-tick"></i>Unlimited Site licenses</li>
-                                    <li><i class="flaticon-tick"></i>1 Database</li>
-                                    <li><i class="flaticon-tick"></i>10 Free Optimization</li>
-                                    <li><i class="flaticon-tick"></i>Html5 + Css3</li>
-                                    <li><i class="flaticon-tick"></i>24/7 Customer Support</li>
-                                </ul>
-                            </div>
-                            <div class="text-center">
-                                <a class="btn btn-white mt-5" href="#"><span>Get Started </span> <i class="fas fa-arrow-circle-right"></i></a>
-                            </div>
-                        </div>
+                <div class="col-lg-4 col-md-12 mt-5 mt-lg-0">
+                  <div class="post">
+                    <div class="post-image">
+                      <img class="img-fluid h-100 w-100 rounded" src="{{ asset('assets/images/about/marketing.jpg') }}" alt="">
                     </div>
-                    <div class="col-lg-4 col-md-12 mt-5 mt-lg-0">
-                        <div class="price-table">
-                            <div class="price-header">
-                                <h3 class="price-title text-center">Premium</h3>
-                            </div>
-                            <img class="img-fluid my-4" src="images/price/01.png" alt="">
-                            <div class="price-value">
-                                <h2 class="text-center">$99<span>/Month</span></h2>
-                            </div>
-                            <div>
-                                <ul class="priceList">
-                                    <li><i class="flaticon-tick"></i>15 Analytics Compaign</li>
-                                    <li><i class="flaticon-tick"></i>Unlimited Site licenses</li>
-                                    <li><i class="flaticon-tick"></i>1 Database</li>
-                                    <li><i class="flaticon-tick"></i>10 Free Optimization</li>
-                                    <li><i class="flaticon-tick"></i>Html5 + Css3</li>
-                                    <li><i class="flaticon-tick"></i>24/7 Customer Support</li>
-                                </ul>
-                            </div>
-                            <div class="text-center">
-                                <a class="btn btn-white mt-5" href="#"> <span>Get Started </span> <i class="fas fa-arrow-circle-right"></i></a>
-                            </div>
-                        </div>
+                    <div class="post-desc">
+                      <div class="post-title">
+                        <h5><a href="blog-details.html">See it in Action</a></h5>
+                      </div>
+                      <p>Get an overview of what Bee can do for your business in our product demos.</p>
+                      <a href="https://crm.beeonline.xyz"><button class="btn btn-primary"><img src="https://img.icons8.com/dusk/20/000000/play.png" class="mr-4"/> Live Demo</button></a>
                     </div>
-                    <div class="col-lg-4 col-md-12 mt-5 mt-lg-0">
-                        <div class="price-table">
-                            <div class="price-header">
-                                <h3 class="price-title text-center">Professional</h3>
-                            </div>
-                            <img class="img-fluid my-4" src="images/price/01.png" alt="">
-                            <div class="price-value">
-                                <h2 class="text-center">$199<span>/Month</span></h2>
-                            </div>
-                            <div>
-                                <ul class="priceList">
-                                    <li><i class="flaticon-tick"></i>15 Analytics Compaign</li>
-                                    <li><i class="flaticon-tick"></i>Unlimited Site licenses</li>
-                                    <li><i class="flaticon-tick"></i>1 Database</li>
-                                    <li><i class="flaticon-tick"></i>10 Free Optimization</li>
-                                    <li><i class="flaticon-tick"></i>Html5 + Css3</li>
-                                    <li><i class="flaticon-tick"></i>24/7 Customer Support</li>
-                                </ul>
-                            </div>
-                            <div class="text-center">
-                                <a class="btn btn-white mt-5" href="#"> <span>Get Started </span> <i class="fas fa-arrow-circle-right"></i></a>
-                            </div>                            
-                        </div>
-                    </div>
+                  </div>
                 </div>
+                <div class="col-lg-4 col-md-12 mt-5 mt-lg-0">
+                  <div class="post">
+                    <div class="post-image">
+                      <img class="img-fluid h-100 w-100 rounded" src="{{ asset('assets/images/about/trial.jpg') }}" alt="">
+                    </div>
+                    <div class="post-desc">
+                      <div class="post-title">
+                        <h5><a href="blog-details.html">Get Started Now</a></h5>
+                      </div>
+                      <p>Try Bee free for 20 days — no credit card required, no software to install.</p>
+                      <a href="https://crm.beeonline.xyz/register"><button class="btn btn-primary"><img src="https://img.icons8.com/dusk/20/000000/hand.png" class="mr-4"/> Get Now</button></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-        </section>
+          </section>
 
         <!--price table end-->
 

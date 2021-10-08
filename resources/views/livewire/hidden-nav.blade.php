@@ -1,5 +1,5 @@
 <div>
-    <nav id="ht-main-nav"> <a href="#" class="ht-nav-toggle"><span></span></a>
+    <nav id="ht-main-nav"> <button href="#" class="ht-nav-toggle" style="border: none; background:white; color: black; font-size: 25px"><i class="fas fa-times-circle"></i></button>
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -12,7 +12,7 @@
                                 <p>311/A, Colombo 2, Srilanka.</p>
                             </li>
                             <li class="mb-4"><i class="flaticon-call"></i><span>Phone:</span><a
-                                    href="tel:+94764878633">+94-76-487-8633</a>
+                                    href="tel:+94772097406">+94-77-209-7406</a>
                             </li>
                             <li><i class="flaticon-email"></i><span>Email</span><a href="mailto:contact@beeonline.xyz">
                                 contact@beeonline.xyz</a>

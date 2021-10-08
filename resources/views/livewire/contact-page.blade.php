@@ -65,11 +65,11 @@
                 <li class="mb-4"><i class="flaticon-location"></i><span>Address:</span>
                   <p>311/A Colombo 2, Sri Lanka.</p>
                 </li>
-                <li class="mb-4"><i class="flaticon-email"></i><span>Email</span><a href="mailto:contact@bee.com"> contact@bee.com</a>
+                <li class="mb-4"><i class="flaticon-email"></i><span>Email</span><a href="mailto:contact@beeonline.xyz"> contact@beeonline.xyz</a>
                 </li>
-                <li class="mb-4"><i class="flaticon-call"></i><span>Phone:</span><a href="tel:+94764878633">+94-76-487-8633</a>
+                <li class="mb-4"><i class="flaticon-call"></i><span>Phone:</span><a href="tel:+94772097406">+94-77-209-7406</a>
                 </li>
-                <li><i class="flaticon-user"></i><span>Fax:</span><a href="tel:+94764878633">+94-76-487-8633</a>
+                <li><i class="flaticon-user"></i><span>Fax:</span><a href="tel:+94772097406">+94-77-209-7406</a>
                 </li>
               </ul>
             </div>

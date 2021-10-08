@@ -61,7 +61,7 @@
                 <h2>What is Bee?</h2>
               </div>
               <p class="text-black">Bee is the world’s #1 customer relationship management (CRM) platform. We help your marketing, sales, commerce, service and IT teams work as one from anywhere — so you can keep your customers happy everywhere.</p>
-              <a class="btn btn-theme" href="#"><span>Learn More</span></a>
+              <a class="btn btn-theme" href="{{ URL::to('/contact') }}"><span>Learn More</span></a>
             </div>      
           </div>
         </div>
@@ -218,7 +218,7 @@
                 <h2>Our core values help make Bee a platform for change.</h2>
               </div>
               <p class="text-black">Ever since we started operating out of a small Colombo House in 2019, we've believed that doing well as a company means doing good in the world. That's why we've committed our time, equity, and products to improving education, equality, and the environment for everyone.</p>
-              <a class="btn btn-theme" href="#"><span>Learn More</span></a>
+              <a class="btn btn-theme" href="{{ URL::to('/contact') }}"><span>Learn More</span></a>
             </div>      
           </div>
         </div>
@@ -257,14 +257,14 @@
                 <h2>Our technology helps people create better jobs, lives, companies, and communities.</h2>
               </div>
               <p class="text-black">When you buy Bee, you’re not just buying a CRM platform; you’re joining an inclusive community of over 10 million innovators, disruptors, and community shapers we call Trailblazers. With free online learning from Trailhead, they’re learning the skills to improve their companies and careers.</p>
-              <a class="btn btn-theme" href="#"><span>Learn More</span></a>
+              <a class="btn btn-theme" href="{{ URL::to('/contact') }}"><span>Learn More</span></a>
             </div>      
           </div>
         </div>
       </section>
 
       <section class="light-bg">
-        <div class="container mb-5">
+        <div class="container">
           <div class="row">
             <div class="col-lg-4 col-md-12">
               <div class="post">
@@ -276,7 +276,7 @@
                     <h5><a>Contact Us</a></h5>
                   </div>
                   <p>Call us at +94 76 487 8633 (Intl), or let us call you back.24 Hours Free customer Service available</p>
-                  <button class="btn btn-primary"><img src="https://img.icons8.com/dusk/30/000000/phone.png" class="mr-4"/> Call Now</button>
+                  <a href="{{ URL::to('/contact') }}"><button class="btn btn-primary"><img src="https://img.icons8.com/dusk/25/000000/phone.png" class="mr-4"/> Call Now</button></a>
                 </div>
               </div>
             </div>
@@ -290,7 +290,7 @@
                     <h5><a href="blog-details.html">See it in Action</a></h5>
                   </div>
                   <p>Get an overview of what Bee can do for your business in our product demos.</p>
-                  <button class="btn btn-primary"><img src="https://img.icons8.com/dusk/30/000000/play.png" class="mr-4"/> Live Demo</button>
+                  <a href="https://crm.beeonline.xyz"><button class="btn btn-primary"><img src="https://img.icons8.com/dusk/20/000000/play.png" class="mr-4"/> Live Demo</button></a>
                 </div>
               </div>
             </div>
@@ -303,8 +303,8 @@
                   <div class="post-title">
                     <h5><a href="blog-details.html">Get Started Now</a></h5>
                   </div>
-                  <p>Try Bee free for 30 days — no credit card required, no software to install.</p>
-                  <button class="btn btn-primary"><img src="https://img.icons8.com/dusk/30/000000/get-cash.png" class="mr-4"/> Get Now</button>
+                  <p>Try Bee free for 20 days — no credit card required, no software to install.</p>
+                  <a href="https://crm.beeonline.xyz/register"><button class="btn btn-primary"><img src="https://img.icons8.com/dusk/20/000000/hand.png" class="mr-4"/> Get Now</button></a>
                 </div>
               </div>
             </div>

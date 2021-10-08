@@ -6,6 +6,7 @@ use App\Http\Livewire\AboutPage;
 use App\Http\Livewire\ContactPage;
 use App\Http\Livewire\OurTeam;
 use App\Http\Livewire\ProjectsPage;
+use App\Http\Livewire\DemoPackage;
 
 
 /*
@@ -24,3 +25,4 @@ Route::get('/about', AboutPage::class);
 Route::get('/our-team', OurTeam::class);
 Route::get('/contact', ContactPage::class);
 Route::get('/projects', ProjectsPage::class);
+Route::get('/demo-packages', DemoPackage::class);

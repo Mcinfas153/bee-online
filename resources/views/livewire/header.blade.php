@@ -5,7 +5,7 @@
                 <div class="row">
                     <div class="col">
                         <nav class="navbar navbar-expand-lg">
-                            <a class="navbar-brand logo" href="#">
+                            <a class="navbar-brand logo" href="https://beeonline.xyz">
                                 <img id="logo-white-img" class="img-fluid" src="{{ asset('assets/images/logo.png') }}" alt="">
                                 <img id="logo-img" class="img-fluid sticky-logo" src="{{ asset('assets/images/logo.png') }}" alt="">
                             </a>
@@ -18,7 +18,7 @@
                                 <ul class="navbar-nav mx-auto position-relative">
                                     <!-- Home -->
                                     <li class="nav-item">
-                                        <a class="nav-link active text-dark" href="#">
+                                        <a class="nav-link active text-dark" href="https://beeonline.xyz">
                                             Home
                                         </a>
                                     </li>
