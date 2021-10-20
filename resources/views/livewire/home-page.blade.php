@@ -1,6 +1,7 @@
 <div>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="stylesheet" href="{{ asset('assets/css/custom.css') }}">
+
     <!--hero section start-->
 
     <section class="fullscreen-banner p-0 banner overflow-hidden grediant-overlay" data-overlay="10">
@@ -193,9 +194,45 @@
             </div>
           </section>
 
-        <!--price table end-->
+          <!-- Button trigger modal -->
+          <!-- Modal -->
+          <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <div class="d-flex modalTitle">
+                    <img src="{{ asset('assets/images/icons/offer.png') }}"/>
+                    <h5 class="modal-title" id="exampleModalLongTitle">Special Offer</h5>
+                  </div>
+                  <button type="button" class="btn" id="closeButton">&times;</button>
+                </div>
+                <div class="modal-body">
+                  <img src="{{ asset('assets/images/icons/celebrate.png') }}"/>
+                  <h5 class="text-center">Gitex Week Offer</h5>
+                  <p class="text-center">Subscribe for 1 year and get 50% discount now </p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn" data-dismiss="modal" id="closeButton2">Close</button>
+                  <a href="https://crm.beeonline.xyz/" class="btn"><img src="{{ asset('assets/images/icons/buy.png') }}"/> Buy Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
 
-    </div>
-
-    <!--body content end-->
+          <script src="{{ asset('assets/js/jquery-3.6.0.min.js') }}"></script>
+          <script type="text/javascript">
+            $(window).on('load', function() {
+                $('#myModal').modal('show');
+            });
+          </script>
+          <script>
+            $("#closeButton").click(function () {
+              $('#myModal').modal('hide');
+            });
+          </script>
+          <script>
+            $("#closeButton2").click(function () {
+              $('#myModal').modal('hide');
+            });
+          </script>
 </div>
