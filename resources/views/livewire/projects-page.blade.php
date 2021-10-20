@@ -61,7 +61,7 @@
                     <div class="portfolio-title"> <span>Real Estate</span>
                       <h4>Bee Properties</h4>
                     </div>
-                    <a class="popup-img" href="{{ asset('assets/images/project/large/01.jpg') }}"> <img src="{{ asset('assets/images/icons/eye.png') }}"/></a>
+                    <a class="popup-img" href="{{ asset('assets/images/project/large/02.jpg') }}"> <img src="{{ asset('assets/images/icons/eye.png') }}"/></a>
                     <a class="popup-link" href="{{ URL::to('/contact') }}"><img src="https://img.icons8.com/ios-glyphs/25/000000/circled-play.png"/> Learn More</a> 
                   </div>
                 </div>
@@ -71,7 +71,7 @@
                     <div class="portfolio-title"> <span>Technology</span>
                       <h4>Bee Tech</h4>
                     </div>
-                    <a class="popup-img" href="{{ asset('assets/images/project/large/01.jpg') }}"> <img src="{{ asset('assets/images/icons/eye.png') }}"/></a>
+                    <a class="popup-img" href="{{ asset('assets/images/project/large/03.jpg') }}"> <img src="{{ asset('assets/images/icons/eye.png') }}"/></a>
                     <a class="popup-link" href="{{ URL::to('/contact') }}"><img src="https://img.icons8.com/ios-glyphs/25/000000/circled-play.png"/> Learn More</a> 
                   </div>
                 </div>
@@ -81,7 +81,7 @@
                     <div class="portfolio-title"> <span>E-Commerce</span>
                       <h4>E-Bee</h4>
                     </div>
-                    <a class="popup-img" href="{{ asset('assets/images/project/large/01.jpg') }}"> <img src="{{ asset('assets/images/icons/eye.png') }}"/></a>
+                    <a class="popup-img" href="{{ asset('assets/images/project/large/04.jpg') }}"> <img src="{{ asset('assets/images/icons/eye.png') }}"/></a>
                     <a class="popup-link" href="{{ URL::to('/contact') }}"><img src="https://img.icons8.com/ios-glyphs/25/000000/circled-play.png"/> Learn More</a>
                   </div>
                 </div>
@@ -91,7 +91,7 @@
                     <div class="portfolio-title"> <span>Portfolio</span>
                       <h4>BeeForlio</h4>
                     </div>
-                    <a class="popup-img" href="{{ asset('assets/images/project/large/01.jpg') }}"> <img src="{{ asset('assets/images/icons/eye.png') }}"/></a>
+                    <a class="popup-img" href="{{ asset('assets/images/project/large/05.jpg') }}"> <img src="{{ asset('assets/images/icons/eye.png') }}"/></a>
                     <a class="popup-link" href="{{ URL::to('/contact') }}"><img src="https://img.icons8.com/ios-glyphs/25/000000/circled-play.png"/> Learn More</a> 
                   </div>
                 </div>
@@ -101,7 +101,7 @@
                     <div class="portfolio-title"> <span>Education</span>
                       <h4>EDU Bee</h4>
                     </div>
-                    <a class="popup-img" href="{{ asset('assets/images/project/large/01.jpg') }}"> <img src="{{ asset('assets/images/icons/eye.png') }}"/></a>
+                    <a class="popup-img" href="{{ asset('assets/images/project/large/06.jpg') }}"> <img src="{{ asset('assets/images/icons/eye.png') }}"/></a>
                     <a class="popup-link" href="{{ URL::to('/contact') }}"><img src="https://img.icons8.com/ios-glyphs/25/000000/circled-play.png"/> Learn More</a> 
                   </div>
                 </div>
